@@ -24,37 +24,88 @@ const restlt = `${name} is a 22 years old .
 
 console.log(restlt); */
 
-/* ৩.১একটা প্ যারামিটার ওয়ালা arrow ফাংশন ডিক্ লেয়ার করো। এবং সেই ফাংশনের কাজ হবে তুমি কো ন ইনপুট দিলে সেই ইনপুট সংখ্ যাকে৫ দিয়ে ভাগ করে আউটপুট দিবে। */
+/* ৩.১একটা প্যারামিটার ওয়ালা arrow ফাংশন ডিক্ লেয়ার করো। এবং সেই ফাংশনের কাজ হবে তুমি কো ন ইনপুট দিলে সেই ইনপুট সংখ্ যাকে৫ দিয়ে ভাগ করে আউটপুট দিবে। */
 
-/* ৩.২তুমি দুইটা প্ যারামিটার ওয়ালা একটা অ্ যারো ফাংশন লিখবে। সেই ফাংশনের ভিতরে কাজ হবে। প্ রত্ যেকটা ইনপুট প্ যারামিটার এর সাথে২ যো গ করবে তারপর যো গফল দুইটা গুণ করবে। ক্ যামনে করবে সেটা চিন্ তা করে বের করার চেষ্ টা করো */
-
-/* ৩.৩এইবার তিনটা প্ যারামিটার ওয়ালা একটা অ্ যারো ফাংশন ডিক্ লেয়ার করো। যেই ফাংশনের কাজ হবে তিনটা প্ যারামিটার নিয়ে সেই তিনটা প্ যারামিটারকে গুণ করে সেই রেজাল্ ট রিটার্ ন করবে। */
-
-/* ৩.৪এইবার দুইটা প্ যারামিটার ওয়ালা একটা অ্ যারো ফাংশন নিবে। ওই arrow ফাংশনটা হবে অনেকগুলা লাইনের। সেখানে প্ রত্ যেকটা ইনপুট প্ যারামিটার এর সাথে২ যো গ করবে তারপর যো গফল দুইটা গুণ করবে। ক্ যামনে করবে সেটা চিন্ তা করে বের করার চেষ্ টা করো। */
+/* const arrowfunction = num => num / 5;
+console.log(arrowfunction(10)) */
 
 
+/* ৩.২তুমি দুইটা প্যারামিটার ওয়ালা একটা অ্যারো ফাংশন লিখবে। সেই ফাংশনের ভিতরে কাজ হবে। প্রত্যেকটা ইনপুট প্যারামিটার এর সাথে২ যো গ করবে তারপর যো গফল দুইটা গুণ করবে। ক্যামনে করবে সেটা চিন্ তা করে বের করার চেষ্ টা করো */
+/* const sumTowParameter = (num1, num2) => {
+//jokon arrow function ay akdik calculation korty hoby ba akdik sorto dity hoy taholy {} use kory sob kisu ager sadaron function ar moto likty hobay
+    const one = num1 + 2;
+    const tow = num2 + 2;
+    const multiply = one * tow;
+    return multiply;
+}
+console.log(sumTowParameter(10, 20)); */
+
+/* ৩.৩এইবার তিনটা প্ যারামিটার ওয়ালা একটা অ্যারো ফাংশন ডিক্ লেয়ার করো। যেই ফাংশনের কাজ হবে তিনটা প্যারামিটার নিয়ে সেই তিনটা প্যারামিটারকে গুণ করে সেই রেজাল্ ট রিটার্ন করবে। */
+
+/* // const threeParameter = (num1, num2, num3) => num1 * num2 * num3;
+//othoba
+// const threeParameter = (num1, num2, num3) => {
+//     const multiply = num1 * num2 * num3;
+//     return multiply
+// }
+console.log(threeParameter(20, 30, 40)) */
 
 
 
+/* ৪.[হোম ওয়ার্ক] একটু গুগলে সার্ চ দাও: javascript function declaration vs arrow function তারপর কয়েকটা আর্ টিকেল পড়ে বুঝার চেষ্ টা করো। */
 
-/* ৪.[হো ম ওয়ার্ ক] একটু গুগলে সার্ চ দাও: javascript
-function declaration vs arrow
-function তারপর কয়েকটা আর্ টিকেল পড়ে বুঝার চেষ্ টা করো। */
-
-/* ৪.৫.[এক্ সট্ রা আরেকটা হো ম ওয়ার্ ক। এইটা ভিডিওতে বলা নাই]: জাভাস্ ক্ রিপ্ ট এর
-var,
-let,
-const এর মধ্ যে প্ রার্ থক্ য কি ? */
+/* ৪.৫.[এক্সট্রা আরেকটা হোমওয়ার্ক। এইটা ভিডিওতে বলা নাই]: জাভাস্ক্রিপ্ট এর var,let,const এর মধ্ যে প্ রার্ থক্ য কি ? */
 
 
 
-/* ৫.অনেকগুলা সংখ্ যার একটা array হবে। তারপর তো মার কাজ হবে array এর উপরে map ইউজ করে। প্ রত্ যেকটা উপাদানকে৫ দিয়ে গুন্ করে গুনফল আরেকটা array হিসেবে রাখবে। পুরা কাজটা এক লাইনে হবে। */
+/* ৫.অনেকগুলা সংখ্ যার একটা array হবে। তারপর তো মার কাজ হবে array এর উপরে map ইউজ করে। প্রত্যেকটা উপাদানকে ৫ দিয়ে গুন্ করে গুনফল আরেকটা array হিসেবে রাখবে। পুরা কাজটা এক লাইনে হবে। */
+
+// const numbers = [20, 40, 2, 10, 50, 40, 39, 100];
+// const multiplyBy5 = numbers.map(num => num * 5);
+// const square = numbers.map(num => num * num);
+
+// console.log(multiplyBy5);
+// console.log(square);
+
+
 
 /* ৬.[চ্ যালেঞ্ জিং। গুগলে সার্ চ দিয়ে বের করো] অনেকগুলা সংখ্ যার একটা array থেকে শুধু বিজো ড় সংখ্ যা বের করে নিয়ে আসার জন্ য filter ইউজ করো */
 
-/* ৭.একটা array এর মধ্ যে অনেকগুলা অবজেক্ ট আছে। সেখানে যেই অবজেক্ ট এর price আছে৫০০০ টেক্ কা সেই অবজেক্ টকে find দিয়ে বের করো। */
-/* 
-৭.৫[এক্ সট্ রা] জাভাস্ ক্ রিপ্ ট এ array এর map, forEach, filter, find কো নটা দিয়ে কি হয়। সেটার একটা সামারি লিখে ফেলো। */
+
+/* const numbers = [2, 5, 4, 6, 494, 303, 03, 405, 4058, 03, 2, 4, 3, 6, 7, 9, 65, 4, 4, 33, 33, 10]
+const oddNumber = numbers.filter(num => num % 2 != 0) //for odd numbers
+    // const evenNumber = numbers.filter(num => num % 2 == 0) //for even numbers
+console.log(oddNumber); */
+
+/* ৭.একটা array এর মধ্ যে অনেকগুলা অবজেক্ ট আছে। সেখানে যেই অবজেক্ ট এর price আছে৫০০০ টেক্কা সেই অবজেক্ টকে find দিয়ে বের করো। */
+
+/* const products = [
+    { name: 'samsung', price: 25000, color: 'black' },
+    { name: 'mi', price: 20000, color: 'gaygreen' },
+    { name: 'watch', price: 5000, color: 'black' },
+    { name: 'iphone watch', price: 5500, color: 'marun' }
+]
+const price5000 = products.find(pro => pro.price == 5000);
+console.log(price5000) */
+
+/*৭.৫[এক্সট্রা] জাভাস্ক্রিপ্ট এ array এর map, forEach, filter, find কোনটা দিয়ে কি হয়। সেটার একটা সামারি লিখে ফেলো। */
+
+const products = [
+    { name: 'samsung', price: 25000, color: 'black' },
+    { name: 'mi', price: 20000, color: 'gaygreen' },
+    { name: 'watch', price: 5000, color: 'black' },
+    { name: 'iphone watch', price: 5500, color: 'marun' },
+    { name: 'oppo', price: 20000, color: 'green' },
+    { name: 'itel', price: 15000, color: 'black' }
+]
+
+/* //use map
+
+map use korlay amder sompurno list tai diay diby aykany amra kono sorto use korty parbo na 
+const useMap = products.map(pro => pro.name);
+const useMap = products.map(pro => pro.price);
+const useMap = products.map(pro => pro.color);
+// console.log(useMap) */
 
 
 
