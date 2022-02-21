@@ -90,6 +90,8 @@ console.log(price5000) */
 
 /*৭.৫[এক্সট্রা] জাভাস্ক্রিপ্ট এ array এর map, forEach, filter, find কোনটা দিয়ে কি হয়। সেটার একটা সামারি লিখে ফেলো। */
 
+
+/* //comon object
 const products = [
     { name: 'samsung', price: 25000, color: 'black' },
     { name: 'mi', price: 20000, color: 'gaygreen' },
@@ -97,21 +99,48 @@ const products = [
     { name: 'iphone watch', price: 5500, color: 'marun' },
     { name: 'oppo', price: 20000, color: 'green' },
     { name: 'itel', price: 15000, color: 'black' }
-]
+] */
 
 /* //use map
 
-map use korlay amder sompurno list tai diay diby aykany amra kono sorto use korty parbo na 
+//map use korlay amder sompurno list tai diay diby aykany amra kono sorto use korty parbo na 
 const useMap = products.map(pro => pro.name);
 const useMap = products.map(pro => pro.price);
 const useMap = products.map(pro => pro.color);
 // console.log(useMap) */
 
+/* // use filter
+
+//filter use korlay amra amader sorto motabak jay aro kay chai taholay filter ay sroto use koray korty pari 
+
+const priceUp10000 = products.filter(pro => pro.price > 10000); //jay sib product ar ddam 10000 ar basi say sob product kay dakabay
+const balckProduct = products.filter(pro => pro.color == 'black')  //jader color black tader dakaby
+console.log(priceUp10000);
+console.log(balckProduct); */
+
+
+/* //use find 
+
+
+//find use korlay jay product kujty chai taholay similar jodi kono product thaaky taholay takay print na koray jakay say potom ay pabay takay agay prind korby tar poray ar thaklay takay ar print korbay na
+const samsung = products.find(pro => pro.name == 'samsung'); //samsung namy product thaklay
+
+const findBlak = products.find(pro => pro.color == 'black'); //black color ar kono product thakly
+console.log(samsung);
+console.log(findBlak);
+const price = products.find(pro => pro.price == 20000); //20000 ar kono product thaklay potom  product print korbay
+console.log(price) */
 
 
 
+/* ৮.সিম্ পল একটা জাভাস্ ক্ রিপ্ ট অবজেক্ ট এর কো ন একটা প্রোপার্ টিকে ভেরিয়েবল হিসেবে ডিক্ লেয়ার করার জন্ য destructuring ইউজ করো। */
 
-/* ৮.সিম্ পল একটা জাভাস্ ক্ রিপ্ ট অবজেক্ ট এর কো ন একটা প্ রো পার্ টিকে ভেরিয়েবল হিসেবে ডিক্ লেয়ার করার জন্ য destructuring ইউজ করো। */
+/* const fish = { name: 'Hilsha', price: 1200, id: 333, home: 'chadpur' }
+const home = fish.home;
+const id = fish.id;
+console.log(fish)
+console.log(home)
+console.log(id) */
 
 /* ৯.[চ্ যালেঞ্ জিং] array এর destructuring করবে আর সেটা করার জন্ য তুমি এরে এর থার্ ড পজিশন এর উপাদান কে destructuring করে 'three'
 নামক একটা ভেরিয়েবল এ রাখবে। */
