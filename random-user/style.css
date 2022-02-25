@@ -1,0 +1,6 @@
+#user {
+    position: fixed;
+    top: 10%;
+    display: none;
+    /* display: block; */
+}
