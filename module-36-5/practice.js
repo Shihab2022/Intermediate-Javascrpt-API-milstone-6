@@ -25,22 +25,47 @@ console.log(myObject.friend)
 
 
 /* ৩.১. শূন্য প্যারামিটার ওয়ালা একটা অ্যারো ফাংশন লিখবে যেটা ৮৯ রিটার্ন করবে।  */
+/* const newParameter = () => 89
+console.log(newParameter()) */
 
 /* ৩.২. এক প্যারামিটার ওয়ালা একটা অ্যারো ফাংশন ডিক্লেয়ার করবে। এই ফাংশনের কাজ হবে যে প্যারামিটার নিবে সেটাকে ৭ দিয়ে ভাগ করে ভাগফল রিটার্ন করবে।  */
+/* const number = num => num / 7
+console.log(number(70)) */
 
 /* ৩.৩ দুই, প্যারামিটার ওয়ালা একটা অ্যারো ফাংশন লিখবে। এই ফাংশনের কাজ হবে যে দুইটা প্যারামিটার ইনপুট নিবে। সেই দুইটা প্যারামিটারকে যোগ করে যোগফলকে দুই দিয়ে ভাগ করে ভাগফল রিটার্ণ করে দাও।  */
 
+/* const numbers = (num1, num2) => {
+    const sum = num1 + num2;
+    const result = sum / 2
+    return result
+}
+console.log(numbers(20, 31)) */
+
+
 /* ৩.৪ একাধিক লাইন ওয়ালা অ্যারো ফাংশন লিখো। সেটাতে দুইটা প্যারামিটার নিবে। ওই arrow ফাংশনটা হবে অনেকগুলা লাইনের। সেখানে প্রত্যেকটা ইনপুট প্যারামিটার এর সাথে ৭ যোগ করবে তারপর যোগফল দুইটাকে আবার যোগ করবে। ক্যামনে করবে সেটা চিন্তা করে বের করার চেষ্টা করো। 
  */
-
-
-
-
+/* const numbers = (num1, num2) => {
+    const newNum1 = num1 + 7
+    const newNum2 = num2 + 7
+    const result = newNum1 + newNum2
+    return result
+}
+console.log(numbers(23, 33)) */
 
 /* 
 ৪. অনেকগুলা সংখ্যার একটা array হবে। তারপর তোমার কাজ হবে array এর উপরে map ইউজ করে। প্রত্যেকটা উপাদানকে ৭ দিয়ে ভাগ করে ভাগফল আরেকটা array হিসেবে রাখবে। পুরা কাজটা এক লাইনে হবে।  */
+/* const newArray = []
+for (const num of array) {
+    const result = num / 7
+    newArray.push(result)
+}
+console.log(newArray) */
 
+//amra ulrar ato kod na likay jodi map use kori taholay oi kaj tai matro 2 line koray dity pai jay ta nichay daykano hoay say
 
+/* const array = [10, 20, 2, 10, 5, 0, 55, 22, 444, 0, 55, 22, 444, 0, 55, 22]
+ const result = array.map(num => num / 7)
+    console.log(result) */
 
 /* ৫. জাভাস্ক্রিপ্ট এ array এর map, forEach, filter, find কোনটা দিয়ে কি হয়। সেটার একটা সামারি লিখে ফেলো।  */
 
